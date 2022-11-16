@@ -28,10 +28,3 @@ $(document).ready(function() {
 
 
 
-$(window).scroll(function(){
-    if ($(this).scrollTop() > 100) {
-        $('.header-nav-container').addClass('fixed');
-    } else {
-        $('.header-nav-container').removeClass('fixed');
-    }
-});
