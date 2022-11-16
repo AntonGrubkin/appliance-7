@@ -1,0 +1,754 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #0D51BE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+    .slide-man {
+       display: none;
+    }
+
+    h1{
+        font-size: 63px;
+    }
+
+    .block-tittle-slider{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .general-appliance-container{
+        top: -82px;
+    }
+
+    .privelegy{
+        margin-bottom: 70px;
+    }
+
+    .privelegy {
+        margin-bottom: 133px;
+    }
+
+
+    .general-item-container{
+        justify-content: center;
+    }
+
+    .item{
+        width: 48% !important;
+    }
+
+    .general-welcome{
+        flex-wrap: wrap;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about{
+        justify-content: center;
+    }
+
+    .general-why{
+        justify-content: center;
+    }
+
+    .general-brands{
+        flex-wrap: wrap;
+    }
+
+    .brands{
+        padding: 70px 0 95px 0;
+    }
+
+    .general-brands{
+        gap: 60px;
+        text-align: center;
+    }
+
+    .list-brands ul{
+        justify-content: center;
+    }
+
+    .brands h2{
+        text-align: center;
+    }
+
+    .pic-promo{
+        display: none;
+    }
+
+    .general-promo{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .topic-appliance{
+        width: 48%;
+    }
+    
+    .general-social img:nth-child(4){
+        display: none;
+
+    }
+
+    .general-social{
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .emergency{
+        padding: 86px 0;
+    }
+
+    .blog-news:nth-child(3){
+        display: none;
+    }
+
+    .blog-news{
+        width: 48%;
+    }
+
+    .pic-blog img{
+        width: 100%;
+    }
+
+    .blog{
+        padding: 80px 0;
+    }
+
+    .container-links{
+        display: none;
+    }
+
+    .general-ftr{
+        justify-content: center;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .WhyUs{
+        padding: 84px 0;
+    }
+
+    .general-welcome{
+        padding-bottom: 84px;
+    }
+
+
+
+    .general-inner-appliance{
+        justify-content: center;
+        gap: 30px 0px;
+    }
+
+    .inner-item{
+        width: 180px;
+    }
+
+    .general-welcome-inner{
+        flex-direction: column;
+        gap: 55px;
+        padding: 75px 0;
+    }
+
+    .tittle-welcome-inner{
+        text-align: center;
+    }
+
+    .btns-content-inner{
+        justify-content: center;
+    }
+
+    .brands-block-inner{
+        padding: 62px 0 84px 0;
+    }
+
+    .general-block-inner-page{
+        text-align: center;
+        gap: 0px;
+    }
+
+    .general-banner{
+        display: none;
+    }
+
+    .problem{
+        padding: 50px 0;
+    }
+
+    .areas{
+        padding-bottom: 65px;
+    }
+
+    .mobile-pic-inner-descr{
+        display: none;
+    }
+
+    .pic-problem-mobile{
+        display: none;
+    }
+
+    .pic-inner-brands{
+        display: none;
+    }
+
+    .descr-brand-appliance{
+        gap: 0;
+    }
+
+    .pic-brand-general{
+        display: none;
+    }
+    
+
+}
+
+
+
+@media screen and (min-device-width: 370px) and (max-device-width: 767px){
+    
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #0D51BE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+    .general-slide{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .slide-man{
+        order: 2;
+    }
+
+    .slide-man img{
+        width: 100%;
+    }
+
+    .tittle-slider p{
+        display: none;
+    }
+
+    h1{
+        font-size: 44px;
+        line-height: 62px;
+    }
+
+    .block-tittle-slider{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .general-appliance-container{
+        top: -75px;
+    }
+
+    .privelegy {
+        margin-top: 40px;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+    }
+
+
+
+    .general-item-container{
+        justify-content: center;
+    }
+
+    .item{
+        width: 100%;
+    }
+
+    .general-welcome{
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .WhyUs h2{
+        font-size: 33px;
+        margin-bottom: 40px;
+    }
+
+    .about{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .pic-welcome img{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 33px;
+        line-height: 48px;
+    }
+
+    .list span:nth-child(1){
+        font-size: 30px;
+    }
+
+    .general-why{
+        justify-content: center;
+    }
+
+    .general-brands{
+        flex-wrap: wrap;
+    }
+
+    .brands{
+        padding: 53px 0 80px 0;
+    }
+
+    .general-brands{
+        gap: 60px;
+        text-align: center;
+    }
+
+    .list-brands ul{
+        justify-content: center;
+    }
+
+    .brands h2{
+        text-align: center;
+    }
+
+    .pic-promo{
+        display: none;
+    }
+
+    .general-promo{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .banner-promo-second{
+        margin: 0  0  80px  0;
+    }
+
+    .banner-promo{
+        margin: 80px  0  0  0;
+    }
+
+    .tittle-promo-second span:nth-child(1){
+        font-size: 65px !important;
+    }
+
+    .tittle-promo-second span:nth-child(2){
+        font-size: 27px !important;
+    }
+
+
+    .tittle-promo{
+        font-size: 26px;
+    }
+
+
+    .topic-appliance{
+        width: 100%;
+    }
+
+    .appliance-repair-in-NY h2{
+        font-size: 33px;
+        line-height: 48px;
+        margin-bottom: 45px;
+    }
+    
+    .general-social img:nth-child(4){
+        display: none;
+
+    }
+
+    .appliance-repair-in-NY{
+        padding: 70px 0;
+    }
+
+    .general-social img{
+        width: 40%;
+    }
+        
+    
+
+    .general-social{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .emergency{
+        padding: 70px 0;
+    }
+
+    .emergancy-descr{
+        flex-wrap: wrap;
+    }
+
+    .tittle-emergency h2{
+        font-size: 33px;
+        line-height: 48px;
+        margin-bottom: 27px;
+    }
+
+    .warranties{
+        width: 100%;
+    }
+
+    .contacts-company{
+        width: 100%;
+    }
+
+    .blog-news:nth-child(3){
+        display: none;
+    }
+
+    .blog-news{
+        width: 48%;
+    }
+
+    .pic-blog img{
+        width: 100%;
+    }
+
+    .blog{
+        padding: 55px 0;
+    }
+
+    .pic-emergency img{
+        display: none;
+    }
+
+    .container-links{
+        display: none;
+    }
+
+    .general-ftr{
+        justify-content: center;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .WhyUs{
+        padding: 70px 0;
+    }
+
+    .general-welcome{
+        padding-bottom: 84px;
+    }
+
+    .general-blog{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .blog-news{
+        width: 100%;
+    }
+
+    a.bth-send{
+        width: 100%;
+    }
+
+    .block-why{
+        width: 100%;
+    }
+
+    .btns-content{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .brands h2{
+        margin-bottom: 25px;
+    }
+
+    .tittle-brands span{
+        line-height: 31px;
+    }
+
+    .btn-call{
+        width: 100%;
+    }
+
+    .btn-book{
+        width: 100%;
+    }
+
+    .footer{
+        padding: 65px 0;
+    }
+
+    .tittle-slider p{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .block-tittle-slider{
+        margin-top: 39px;
+    }
+
+
+
+    .general-inner-appliance{
+        justify-content: center;
+        gap: 30px 0px;
+    }
+
+    .inner-item{
+        width: 180px;
+    }
+
+    .general-welcome-inner{
+        flex-direction: column;
+        gap: 55px;
+        padding: 57px 0 70px 0;
+    }
+
+    .tittle-welcome-inner{
+        text-align: center;
+    }
+
+    .btns-content-inner{
+        justify-content: center;
+    }
+
+    .brands-block-inner{
+        padding: 62px 0 65px 0;
+    }
+
+    .general-block-inner-page{
+        text-align: center;
+        gap: 60px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+
+    .problem{
+        padding: 50px 0;
+    }
+
+    .areas{
+        padding-bottom: 65px;
+    }
+
+    .btns-content-inner{
+        flex-wrap: wrap;
+    }
+
+    .pic-welcome-inner img{
+        width: 100%;
+    }
+
+    .descr-problem-innre-appliance{
+        padding: 45px;
+    }
+
+    .pic-problem{
+        display: none;
+    }
+
+    .pic-problem-mobile img{
+        width: 100%;
+    }
+
+    .pic-problem-mobile{
+        margin: 40px 0;
+    }
+
+    .mobile-pic-inner-descr{
+        margin-top: 40px;
+    }
+
+    .mobile-pic-inner-descr img{
+        width: 100%;
+    }
+
+    .pic-inner-descr{
+        display: none;
+    }
+
+    .block-brand-inner-general{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .pic-brand-general img{
+        width: 100%;
+    }
+
+    .pic-brand-general{
+        order: 0;
+    }
+
+    .description-welcome-inner{
+        order: 1;
+    }
+
+    .repairs-brend{
+        padding: 59px 0;
+    }
+
+    .brannd-appliance{
+        padding: 61px 0 71px 0;
+    }
+
+    .descr-brand-appliance{
+        flex-wrap: wrap;
+    }
+
+    .pic-inner-brands img{
+        width: 100%;
+    }
+
+    .descr-brand-appliance{
+        padding: 40px;
+    }
+
+    .areas-second{
+        padding: 57px 0;
+    }
+
+    .repairs-brend h2{
+        margin-bottom: 20px;
+    }
+
+    .stick-block-phone {
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px 40px;
+        position: fixed;
+        bottom: 0;
+        z-index: 777;
+        display: block;
+        
+    }
+
+    .btns-stick{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+    
+}
